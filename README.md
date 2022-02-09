@@ -4,7 +4,7 @@ Better Brightness control script for laptops running linux under KDE ( Will Also
 
 # Installation
 
-This script is to be added through KDE's Custom Shortcuts Menu in Settings as a Global Shortcut ( Just download it and put it in your home folder ).
+This script is to be added through KDE's Custom Shortcuts Menu in Settings as a Global Shortcut ( Just download it and put it in your home folder ) And then create a custom shortcut to call it when changing brightness.
 
 There are 2 variants of this code, one is written in bash, and the other one is python based (for python 3.6+ , requires dasbus module to work).
 Both do exactly the same thing , but i presume that the python script has a lot more overhead and therefore might run slower than the bash counterpart (Did not test but seems logical to me).
