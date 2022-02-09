@@ -15,12 +15,16 @@ Any of the scripts are to be called with a single parameter, either "UP" or "DOW
 
 ## Example : 
 Bash : 
- `bash Brightness-Script.sh UP`
+ `bash Brightness_Script.sh UP`
  
 Python : 
-  `Python3 Brightness-Script.py UP`
+  `Python3 Brightness_Script.py UP`
 
 ## Adapting to your laptop
 You will have to change the `BRIGHTNESS_STEP` variable to one of the divisors of `MAX_BRIGHTNESS` (You can read it's value by running `cat /sys/class/backlight/intel_backlight/max_brightness` in terminal, may only work for intel laptops).
 
 Note that this isn't obligatory, but as an example :  if your device has a max brightness value of 1060 (Like my laptop for example), dividing by 53 will yield 20 steps of brightness controle.
+
+
+## Contributions
+Please consider contributing if you know any way of making this functionality run faster or with less overhead, even if it means rewriting everything.
