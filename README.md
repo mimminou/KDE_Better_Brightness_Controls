@@ -21,7 +21,7 @@ Python :
   `Python3 Brightness_Script.py UP`
 
 ## Adapting to your laptop
-You will have to change the `BRIGHTNESS_STEP` variable to one of the divisors of `MAX_BRIGHTNESS` (You can read it's value by running `cat /sys/class/backlight/intel_backlight/max_brightness` in terminal, may only work for intel laptops).
+In order to properly adapt the script to your device, you will have to change the `BRIGHTNESS_STEP` variable value inside the script to one of the divisors of `MAX_BRIGHTNESS` (You can read it's value by running `cat /sys/class/backlight/intel_backlight/max_brightness` in terminal, may only work for intel laptops).
 
 Note that this isn't obligatory, but as an example :  if your device has a max brightness value of 1060 (Like my laptop for example), dividing by 53 will yield 20 steps of brightness controle.
 
